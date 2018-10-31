@@ -889,6 +889,26 @@ call s:HL('multiple_cursors_cursor', s:none, s:none, s:inverse)
 call s:HL('multiple_cursors_visual', s:none, s:bg2)
 
 " }}}
+" doxygen {{{
+
+call s:HL('doxygenComment', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenBrief', s:gray, s:none, s:italic)
+call s:HL('doxygenBody', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenSpecialTypeOnelineDesc', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenBOther', s:gray, s:none, s:bold)
+call s:HL('doxygenParam', s:gray, s:none, s:bold)
+call s:HL('doxygenParamName', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenSpecialOnelineDesc', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenSpecialHeading', s:gray, s:none, s:bold)
+call s:HL('doxygenPrev', s:gray, s:none, s:bold)
+
+call s:HL('doxygenBriefLine', s:gray, s:none, s:italic)
+call s:HL('doxygenSpecialMultilineDesc', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenContinueComment', s:gray, s:none, s:italicize_comments)
+call s:HL('doxygenStartSpecial', s:gray, s:none, s:bold)
+call s:HL('doxygenSpecial', s:gray, s:none, s:bold)
+
+" }}}
 
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
