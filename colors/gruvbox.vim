@@ -909,6 +909,11 @@ call s:HL('doxygenStartSpecial', s:gray, s:none, s:bold)
 call s:HL('doxygenSpecial', s:gray, s:none, s:bold)
 
 " }}}
+" Matchup {{{
+
+call s:HL('MatchParen', s:none, s:gb.dark4)
+
+" }}}
 
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
