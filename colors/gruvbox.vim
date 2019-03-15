@@ -915,6 +915,16 @@ call s:HL('MatchParen', s:none, s:gb.dark4)
 
 " }}}
 
+" GitMessenger {{{
+"
+call s:HL('gitmessengerHeader', s:orange, s:none, s:bold)
+call s:HL('gitmessengerHash', s:none, s:none, s:italic)
+call s:HL('gitmessengerHistory', s:yellow, s:none)
+call s:HL('gitmessengerPopupNormal', s:none, s:bg1)
+call s:HL('gitmessengerEndOfBuffer', s:none, s:none)
+
+" }}}
+
 " Filetype specific -----------------------------------------------------------
 " Diff: {{{
 
@@ -991,6 +1001,7 @@ hi! link vimSep GruvboxFg3
 hi! link vimContinue GruvboxFg3
 
 " }}}
+"
 " Clojure: {{{
 
 hi! link clojureKeyword GruvboxBlue
